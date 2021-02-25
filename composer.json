@@ -1,0 +1,26 @@
+{
+    "name": "ornio/l10n-laravel",
+    "description": "L10N translation service Laravel package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sallmin Rexha (Ornio AS)",
+            "email": "sallmin.rexha@ornio.no"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ornio\\l10n\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ornio\\l10n\\Providers\\L10NServiceProvider"
+            ]
+        }
+    }
+}
