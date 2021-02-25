@@ -15,7 +15,7 @@ To install with [Composer](https://getcomposer.org/), simply require the
 latest version of this package.
 
 ```bash
-composer require sallminrexha/l10n
+composer require ornio/l10n-laravel
 ```
 
 ## Quick Start
