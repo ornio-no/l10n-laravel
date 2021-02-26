@@ -35,7 +35,7 @@ L10N_URL
 \
 Publish files:
 ```bash
-php artisan vendor:publish --provider="Ornio\l10n\L10NServiceProvider"
+php artisan vendor:publish --tag="l10n"
 ```
 
 \
